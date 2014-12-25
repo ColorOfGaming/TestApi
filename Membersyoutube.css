@@ -1,0 +1,111 @@
+body {
+	background-image: url("https://dl.dropboxusercontent.com/u/156891738/1%20%283%29.png");
+	margin: 0px
+}
+
+div {
+	display: block;
+}
+
+/*start header*/
+.header {
+	background-image: url("https://dl.dropboxusercontent.com/u/156891738/1%20%284%29.png");
+	width: 100%;
+	height: 240px;
+	min-width: 400px;
+	border-bottom: 1px solid #000000;
+}
+
+.logo-link {
+	margin-top: 40px;
+}
+
+.wrapper {
+	margin-left: 210px;
+	margin-right: 210px;
+}
+
+.container {
+	width: 100%;
+}
+
+.menubar-container {
+	margin-top: 30px;
+	border: 1px solid #000000;
+	border-radius: 25px;
+	background-image: url("https://dl.dropboxusercontent.com/u/156891738/Border.png")
+}
+
+.menubar-container .menubar {
+	font-size: 24px;
+}
+
+ul {
+	list-style: none;
+}
+
+.menubar-container .menubar ul {
+	margin: 0px;
+	height: 50px;
+	text-align: center;
+}
+
+.menubar-container .menubar li {
+	display: inline-block;
+}
+
+.menubar-container .menubar a {
+ 	text-decoration: none;
+	display: block;
+	color: #2FBF19;
+	line-height: 20px;
+	padding: 15px 60px;
+	font-family: "Russo One"
+}
+
+.menubar-container .menubar a:hover {
+	color: #cad4c9;
+}
+/*header*/
+
+.wrapper {
+	margin-left: 210px;
+	margin-right: 210px;
+}
+
+.homepage {
+	background-color: #2B2F2B;
+	width: 100%;
+	margin-top: 100px;
+	border-radius: 25px;
+	border: 1px solid #000000;
+}
+
+.memberbackground {
+	height: 800px;
+	width: 300px;
+	text-align: center;
+	margin: 100px;
+}
+
+.memberrender {
+	border: 1px solid #2FBF19;
+	border-radius: 100%;
+	width: 280px;
+	height: 280px;
+	margin-top: 20px;
+}
+
+.membername {
+	font-family: "Russo One";
+	font-size: 36px;
+	color: #2FBF19;
+}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	background-image: url("https://dl.dropboxusercontent.com/u/156891738/1%20%284%29.png");
+	margin-top: 100px;
+	border-top: 1px solid #000000;
+}
