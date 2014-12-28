@@ -1,3 +1,3 @@
-*Me's test project of Youtube API utilisation*
+*My test project of Youtube API utilisation*
 
 > This is a dev proj.
