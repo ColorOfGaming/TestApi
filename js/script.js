@@ -4,5 +4,3 @@ jQuery(document).ready(function() {
     output = '<li>'+'BlahBlahBlah'+'<li>';
     $('#results').append(output);
 );
-
-
