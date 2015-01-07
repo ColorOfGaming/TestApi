@@ -16,22 +16,14 @@
         
         <ul id="results"></ul> <!-- Afficher le résultat JS --> 
         
-        <p id="demo"></p>
-        
         <script type="text/javascript">
           $(document).ready(function() {
-            document.getElementById("demo").innerHTML = 5 + 6;
+            videoelmt = '<li>'+'<iframe width="560" height="315" src="//www.youtube.com/embed/sbQQKI1Fwo4?rel=0" frameborder="0" allowfullscreen></iframe>'+'<li>';
+            testelmt = '<li>'+'BlahBlahBlah'+'<li>';
+            
+            document.getElementById("results").innerHTML = videoelmt;
+            document.getElementById("results").innerHTML = testelmt;
           });
-        </script>
-        
-        <script type="text/javascript">
-          $(document).ready(function() {
-            output = '<li>'+'<iframe width="560" height="315" src="//www.youtube.com/embed/sbQQKI1Fwo4?rel=0" frameborder="0" allowfullscreen></iframe>'+'<li>';
-            $('#results').append(output);
-            output = '<li>'+'BlahBlahBlah'+'<li>';
-            $('#results').append(output);
-          );
-
         </script>
         
         </div>
