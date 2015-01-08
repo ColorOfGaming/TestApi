@@ -9,7 +9,9 @@ $(document).ready(function() {
       key: "AIzaSyDSmV8UbLjqmWKXwlmQegP-YsY9hEkBWes"
     },
     function (data){
-      console.log("Hello");
+      if(typeof data == "object" && data.post){
+        console.log("Data exists");
+      }
       $.each(data.items,function(i,item){console.log("Hello in");})
     }
   );
