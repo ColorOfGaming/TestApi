@@ -8,7 +8,7 @@ $(document).ready(function() {
       key: 'AIzaSyBra4wZMz0gsWgsQZumMgv9Y4juFQVhHhs'
     },
     function (data){
-        $.each(data.items, function(){
+        $.each(data.items, function(i,item){
           console.log(item);
       })
     }
