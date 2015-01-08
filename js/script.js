@@ -9,7 +9,8 @@ $(document).ready(function() {
       key: "AIzaSyDSmV8UbLjqmWKXwlmQegP-YsY9hEkBWes"
     },
     function (data){
-      $.each(data.items,function(i,item){console.log(item);})
+      console.log("hello world");
+      //$.each(data.items,function(i,item){console.log(item);})
     }
   );
 });
