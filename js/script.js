@@ -1,7 +1,7 @@
 var channelName = 'TechGuyWeb';
 
 $(document).ready(function() {
-  $.post(
+  $.get(
     "https://www.googleapis.com/youtube/v3/channels",
     {
       part: "contentDetails",
@@ -9,9 +9,7 @@ $(document).ready(function() {
       key: "AIzaSyDSmV8UbLjqmWKXwlmQegP-YsY9hEkBWes"
     },
     function (data){
-      if(typeof data == "object" && data.post){
-        console.log("Data exists");
-      }
+      console.log(typeof(data));
       $.each(data.items,function(i,item){console.log("Hello in");})
     }
   );
