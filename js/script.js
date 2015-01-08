@@ -1,7 +1,7 @@
 var channelName = 'TechGuyWeb';
 
 $(document).ready(function() {
-  $.get(
+  $.post(
     "https://www.googleapis.com/youtube/v3/channels",
     {
       part: "contentDetails",
