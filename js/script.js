@@ -11,6 +11,6 @@ $(document).ready(function() {
         $.each(data.items, function(i,item){
           console.log(item);
       })
-    }
+    } 
   );
-}
+});
