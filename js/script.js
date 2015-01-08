@@ -4,13 +4,13 @@ $(document).ready(function() {
   $.get(
     "https://www.googleapis.com/youtube/v3/channels",
     {
-      part: "contentDetails",
+      part: 'contentDetails',
       forUsername: channelName,
-      key: "AIzaSyDSmV8UbLjqmWKXwlmQegP-YsY9hEkBWes"
+      key: 'AIzaSyDSmV8UbLjqmWKXwlmQegP-YsY9hEkBWes'
     },
     function (data){
       console.log(typeof(data));
-      $.each(data.item,function(i,item){console.log("Hello in");})
+      $.each(data.items,function(i,item){console.log("Hello in");})
     }
   );
 });
