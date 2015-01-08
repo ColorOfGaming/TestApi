@@ -9,8 +9,8 @@ $(document).ready(function() {
       key: "AIzaSyDSmV8UbLjqmWKXwlmQegP-YsY9hEkBWes"
     },
     function (data){
-      console.log(data);
-      //$.each(data.items,function(i,item){console.log(item);})
+      console.log("Hello");
+      $.each(data.items,function(i,item){console.log("Hello in");})
     }
   );
 });
