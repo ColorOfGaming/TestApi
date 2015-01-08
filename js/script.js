@@ -5,7 +5,7 @@ $(document).ready(function() {
     "https://www.googleapis.com/youtube/v3/channels",
     {
       part: "contentDetails",
-      forUsername: "qoyaqa",
+      forUsername: channelName,
       key: "AIzaSyDSmV8UbLjqmWKXwlmQegP-YsY9hEkBWes"
     },
     function (data){
