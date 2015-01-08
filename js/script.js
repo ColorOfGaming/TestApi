@@ -5,7 +5,7 @@ $(document).ready(function() {
     "https://www.googleapis.com/youtube/v3/channels",{
       part: "contentDetails",
       forUsername: "qoyaqa",
-      key: 'AIzaSyBrQ3kxIFYp1iA4N5wWQ-j96dbHQMrunnc'
+      key: "AIzaSyDSmV8UbLjqmWKXwlmQegP-YsY9hEkBWes"
     },
     function (data){
         $.each(data.items, function(i,item){
