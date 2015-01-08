@@ -9,7 +9,7 @@ $(document).ready(function() {
       key: "AIzaSyDSmV8UbLjqmWKXwlmQegP-YsY9hEkBWes"
     },
     function (data){
-      console.log("hello world");
+      console.log(data);
       //$.each(data.items,function(i,item){console.log(item);})
     }
   );
