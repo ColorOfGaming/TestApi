@@ -6,11 +6,14 @@ $(document).ready(function() {
       part: "contentDetails",
       forUsername: "qoyaqa",
       key: "AIzaSyDSmV8UbLjqmWKXwlmQegP-YsY9hEkBWes"
-    },
+    } ,
     function (data){
-        $.each(data.items, function(i,item){
+      $.each(
+        data.items, 
+        function(i,item){
           console.log(item);
-      })
-    } 
+        }
+      )
+    }
   );
 });
