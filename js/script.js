@@ -10,7 +10,7 @@ $(document).ready(function() {
     },
     function (data){
       console.log(typeof(data));
-      $.each(data.items,function(i,item){console.log("Hello in");})
+      $.each(data.item,function(i,item){console.log("Hello in");})
     }
   );
 });
